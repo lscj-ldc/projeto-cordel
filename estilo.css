@@ -36,7 +36,7 @@ section {
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
-    font-size: 6vh;
+    font-size: 12px;
     padding: 10vh 0 10vh 30px;
 }
 section > p {
@@ -83,9 +83,8 @@ footer a {
     font-style: normal;
     color: white;
 }
-@media screen {
-    section.imagem > p {
-        font-size: 0.8em;
-        width: 380px;
+@media (min-width: 380px){
+    section {
+        font-size: 6em;
     }
 }
