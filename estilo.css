@@ -83,3 +83,9 @@ footer a {
     font-style: normal;
     color: white;
 }
+@media screen {
+    section.imagem > p {
+        font-size: 0.8em;
+        width: 380px;
+    }
+}
